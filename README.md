@@ -3,7 +3,7 @@
 > **Note:** This repository is a public showcase. The full source code is private.
 > If you'd like to know more about the implementation, design choices, or technical decisions, I'm open to discussion — feel free to reach out.
 
-### 📑 Table of Contents
+### Table of Contents
 - [Project Overview](#project-overview)
 - [Backend Design](#backend-design)
   - [Entity / DTOs / Mapper / Repo](#entity--dtos--mapper--repo)
@@ -22,15 +22,15 @@
 
 WolfCafe is a full-stack coffee shop management system built for a CSC 326-style course project. It combines a Spring Boot backend with a React/Vite frontend and implements secure authentication, role-based features, inventory and order management, and admin tools.
 
-🔧 Features
-- 🔐 JWT-backed authentication for secure login and role-based access control
-- 👤 Multiple user roles: `ROLE_CUSTOMER`, `ROLE_BARISTA`, `ROLE_STAFF`, `ROLE_MANAGER`, `ROLE_ADMIN`
-- 🧾 Inventory, ingredients, recipes, orders, user management, tax rate, and loyalty point support
-- ⚙️ REST API backend with Spring Boot, Spring Security, Spring Data JPA, and MySQL
-- ⚛️ Responsive frontend using React, Vite, Bootstrap, and Axios
-- 🧪 Automated tests for backend and frontend using JUnit and Vitest
+Features
+- JWT-backed authentication for secure login and role-based access control
+- Multiple user roles: `ROLE_CUSTOMER`, `ROLE_BARISTA`, `ROLE_STAFF`, `ROLE_MANAGER`, `ROLE_ADMIN`
+- Inventory, ingredients, recipes, orders, user management, tax rate, and loyalty point support
+- REST API backend with Spring Boot, Spring Security, Spring Data JPA, and MySQL
+- Responsive frontend using React, Vite, Bootstrap, and Axios
+- Automated tests for backend and frontend using JUnit and Vitest
 
-🧰 Tech Stack
+Tech Stack
 - Backend: Java 21, Spring Boot, Spring Security, JWT, MySQL, Maven
 - Frontend: React, Vite, Bootstrap, Axios, Vitest
 - Build & tooling: Maven, npm, Node.js
